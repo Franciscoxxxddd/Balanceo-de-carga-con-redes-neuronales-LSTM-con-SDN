@@ -1,0 +1,942 @@
+{
+  "titulo": "Reporte de Conmutación por Saturación - IA-LSTM",
+  "generado": "2026-05-05 10:10:16",
+  "descripcion": "Eventos donde la IA detectó servidor saturado y redirigió tráfico",
+  "eventos_por_prueba": [
+    {
+      "prueba": 1,
+      "nombre": "Tráfico Base",
+      "total_eventos": 7,
+      "eventos": [
+        {
+          "timestamp": 1777964214.3005152,
+          "cliente": "10.0.0.14",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777964218.8481252,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.9,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777964219.1892781,
+          "cliente": "10.0.0.14",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 93.7,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777964221.9731395,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.3,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777964224.633355,
+          "cliente": "10.0.0.18",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.2,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777964229.128904,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777964233.9045494,
+          "cliente": "10.0.0.11",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 91.2,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 2,
+      "nombre": "Operación Diaria",
+      "total_eventos": 5,
+      "eventos": [
+        {
+          "timestamp": 1777965301.1736596,
+          "cliente": "10.0.0.11",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777965301.313198,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 95.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777965302.0547872,
+          "cliente": "10.0.0.14",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 94.3,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777965306.2638764,
+          "cliente": "10.0.0.17",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 92.6,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777965307.1567264,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 3,
+      "nombre": "Estrés Crítico",
+      "total_eventos": 5,
+      "eventos": [
+        {
+          "timestamp": 1777966220.8774748,
+          "cliente": "10.0.0.22",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966221.8433516,
+          "cliente": "10.0.0.11",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 94.3,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966222.20749,
+          "cliente": "10.0.0.16",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 97.2,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966222.6593578,
+          "cliente": "10.0.0.16",
+          "servicio": "STREAMING",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.3,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966226.0158844,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 92.6,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 4,
+      "nombre": "Streaming",
+      "total_eventos": 6,
+      "eventos": [
+        {
+          "timestamp": 1777966885.9027514,
+          "cliente": "10.0.0.15",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966885.9973788,
+          "cliente": "10.0.0.22",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 94.3,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966886.1106973,
+          "cliente": "10.0.0.19",
+          "servicio": "STREAMING",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.3,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966889.6083558,
+          "cliente": "10.0.0.12",
+          "servicio": "STREAMING",
+          "servidor_original": "srv1",
+          "cpu_detectada": 92.6,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966895.7057242,
+          "cliente": "10.0.0.11",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 91.2,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777966904.2213614,
+          "cliente": "10.0.0.15",
+          "servicio": "STREAMING",
+          "servidor_original": "srv3",
+          "cpu_detectada": 95.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 5,
+      "nombre": "Ráfagas",
+      "total_eventos": 3,
+      "eventos": [
+        {
+          "timestamp": 1777967543.4598207,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 97.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777967565.9731455,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 95.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777967572.5984745,
+          "cliente": "10.0.0.17",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 93.7,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 6,
+      "nombre": "Jitter",
+      "total_eventos": 1,
+      "eventos": [
+        {
+          "timestamp": 1777994620.7663093,
+          "cliente": "10.0.0.11",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 97.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 7,
+      "nombre": "Congestión",
+      "total_eventos": 3,
+      "eventos": [
+        {
+          "timestamp": 1777995543.036204,
+          "cliente": "10.0.0.13",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 97.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777995543.0770018,
+          "cliente": "10.0.0.17",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777995551.3699682,
+          "cliente": "10.0.0.11",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 95.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 8,
+      "nombre": "Tráfico Mixto",
+      "total_eventos": 6,
+      "eventos": [
+        {
+          "timestamp": 1777996637.6601412,
+          "cliente": "10.0.0.22",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 97.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777996637.7598658,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777996637.9284508,
+          "cliente": "10.0.0.19",
+          "servicio": "STREAMING",
+          "servidor_original": "srv2",
+          "cpu_detectada": 95.5,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777996637.975858,
+          "cliente": "10.0.0.19",
+          "servicio": "STREAMING",
+          "servidor_original": "srv3",
+          "cpu_detectada": 90.9,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777996649.8360076,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 90.9,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777996650.5602086,
+          "cliente": "10.0.0.14",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.2,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 9,
+      "nombre": "Caída Servidor",
+      "total_eventos": 38,
+      "eventos": [
+        {
+          "timestamp": 1777997711.291301,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.331897,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.3518424,
+          "cliente": "10.0.0.17",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.3753505,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.400972,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.427753,
+          "cliente": "10.0.0.18",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.4724152,
+          "cliente": "10.0.0.14",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.5151107,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.5429296,
+          "cliente": "10.0.0.11",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.5755718,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.623247,
+          "cliente": "10.0.0.16",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.6654482,
+          "cliente": "10.0.0.15",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.9039109,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997711.9039109,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997713.0008945,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997713.0008945,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997716.30687,
+          "cliente": "10.0.0.18",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 94.3,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997716.30687,
+          "cliente": "10.0.0.18",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997718.0579863,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 93.7,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997718.0579863,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997719.5119798,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 91.2,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997719.5119798,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997721.0240688,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.3,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997721.0240688,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997722.7505698,
+          "cliente": "10.0.0.18",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 97.9,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997722.7505698,
+          "cliente": "10.0.0.18",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997723.0175884,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.2,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997723.0175884,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997728.5732183,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.1,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777997728.5732183,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        }
+      ]
+    },
+    {
+      "prueba": 10,
+      "nombre": "Resiliencia",
+      "total_eventos": 194,
+      "eventos": [
+        {
+          "timestamp": 1777999846.0604265,
+          "cliente": "10.0.0.15",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 90.8,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999847.7378995,
+          "cliente": "10.0.0.15",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 94.6,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999853.3155272,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 93.1,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999855.594253,
+          "cliente": "10.0.0.16",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999856.0244622,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 91.8,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999859.3392634,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 94.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999860.389017,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 96.8,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999860.5627363,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 90.6,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999860.7195795,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999861.0581775,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 93.8,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999861.0911233,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 96.1,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999862.942652,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 99.7,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999863.2769575,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 92.5,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999866.9711106,
+          "cliente": "10.0.0.21",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 95.2,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999869.0103655,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 94.2,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999869.0357065,
+          "cliente": "10.0.0.19",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 97.4,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999870.8546653,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 95.4,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999871.2218857,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 90.6,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999876.0272832,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 91.3,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999877.7704363,
+          "cliente": "10.0.0.16",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 94.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999879.843743,
+          "cliente": "10.0.0.13",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 92.3,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999880.5615795,
+          "cliente": "10.0.0.11",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 95.3,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999890.1988308,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 92.2,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999892.5214667,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 91.7,
+          "nuevo_servidor": "srv3",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999894.991603,
+          "cliente": "10.0.0.12",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999896.826085,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 92.4,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999897.5215008,
+          "cliente": "10.0.0.20",
+          "servicio": "WEB",
+          "servidor_original": "srv3",
+          "cpu_detectada": 95.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999898.6179526,
+          "cliente": "10.0.0.15",
+          "servicio": "WEB",
+          "servidor_original": "srv2",
+          "cpu_detectada": 100.0,
+          "nuevo_servidor": "srv1",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999900.510096,
+          "cliente": "10.0.0.22",
+          "servicio": "WEB",
+          "servidor_original": "srv1",
+          "cpu_detectada": 93.0,
+          "nuevo_servidor": "srv4",
+          "fue_desviado": true
+        },
+        {
+          "timestamp": 1777999901.9367592,
+          "cliente": "10.0.0.14",
+          "servicio": "WEB",
+          "servidor_original": "srv4",
+          "cpu_detectada": 90.6,
+          "nuevo_servidor": "srv2",
+          "fue_desviado": true
+        }
+      ]
+    }
+  ],
+  "total_eventos_globales": 268
+}

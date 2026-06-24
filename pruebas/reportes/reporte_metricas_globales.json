@@ -1,0 +1,450 @@
+{
+  "titulo": "Reporte de Métricas Globales - RR vs IA",
+  "generado": "2026-05-05 10:10:16",
+  "estandares": [
+    "ITU-T Y.1540 (IPLR, IPTD, IPDV)",
+    "RFC 2544 (Throughput, Back-to-Back, Recovery)"
+  ],
+  "pruebas": [
+    {
+      "prueba": 1,
+      "nombre": "Tráfico Base",
+      "RR": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.07,
+        "ipdv_jitter_ms": 1.65,
+        "throughput": {
+          "srv1": 10.2,
+          "srv2": 10.2,
+          "srv3": 9.8,
+          "srv4": 10.1
+        },
+        "recovery_s": 23,
+        "recovery_ms": 23000,
+        "equidad_cpu_std": 23.174159782885976,
+        "equidad_ram_std": 10.94549051983449,
+        "response_time_ms": 9186.53,
+        "total_decisiones": 20
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 0.94,
+        "ipdv_jitter_ms": 1.83,
+        "throughput": {
+          "srv1": 10.2,
+          "srv2": 10.1,
+          "srv3": 10.0,
+          "srv4": 9.81
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 8.90987235350448,
+        "equidad_ram_std": 9.670752223423152,
+        "response_time_ms": 6709.37,
+        "total_decisiones": 27
+      },
+      "diferencia": {
+        "iplr_percent": 0,
+        "iptd_avg_ms": -0.13,
+        "ipdv_jitter_ms": 0.18,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 2,
+      "nombre": "Operación Diaria",
+      "RR": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.07,
+        "ipdv_jitter_ms": 1.66,
+        "throughput": {
+          "srv1": 9.84,
+          "srv2": 10.3,
+          "srv3": 10.0,
+          "srv4": 10.2
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 23.174159782885976,
+        "equidad_ram_std": 10.94549051983449,
+        "response_time_ms": 10767.13,
+        "total_decisiones": 20
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.07,
+        "ipdv_jitter_ms": 3.21,
+        "throughput": {
+          "srv1": 10.2,
+          "srv2": 10.1,
+          "srv3": 10.2,
+          "srv4": 10.2
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 7.011015125369997,
+        "equidad_ram_std": 10.702414350849985,
+        "response_time_ms": 8526.35,
+        "total_decisiones": 25
+      },
+      "diferencia": {
+        "iplr_percent": 0,
+        "iptd_avg_ms": 0.0,
+        "ipdv_jitter_ms": 1.55,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 3,
+      "nombre": "Estrés Crítico",
+      "RR": {
+        "iplr_percent": 0.12,
+        "iptd_avg_ms": 15.18,
+        "ipdv_jitter_ms": 2.86,
+        "throughput": {
+          "srv1": 10.2,
+          "srv2": 10.1,
+          "srv3": 10.2,
+          "srv4": 10.0
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 14.037572960324175,
+        "equidad_ram_std": 14.850595936445156,
+        "response_time_ms": 6398.43,
+        "total_decisiones": 28
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 15.47,
+        "ipdv_jitter_ms": 2.93,
+        "throughput": {
+          "srv1": 10.2,
+          "srv2": 10.2,
+          "srv3": 10.2,
+          "srv4": 9.8
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 13.044290739530988,
+        "equidad_ram_std": 5.426976297483739,
+        "response_time_ms": 5584.81,
+        "total_decisiones": 32
+      },
+      "diferencia": {
+        "iplr_percent": -0.12,
+        "iptd_avg_ms": 0.29,
+        "ipdv_jitter_ms": 0.07,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 4,
+      "nombre": "Streaming",
+      "RR": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.53,
+        "ipdv_jitter_ms": 3.02,
+        "throughput": {
+          "srv1": 9.61,
+          "srv2": 10.1,
+          "srv3": 10.1,
+          "srv4": 10.1
+        },
+        "recovery_s": 10,
+        "recovery_ms": 10000,
+        "equidad_cpu_std": 14.037572960324175,
+        "equidad_ram_std": 14.850595936445156,
+        "response_time_ms": 7661.74,
+        "total_decisiones": 28
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.43,
+        "ipdv_jitter_ms": 2.85,
+        "throughput": {
+          "srv1": 10.3,
+          "srv2": 10.1,
+          "srv3": 9.92,
+          "srv4": 10.1
+        },
+        "recovery_s": 1,
+        "recovery_ms": 1000,
+        "equidad_cpu_std": 15.856403823270204,
+        "equidad_ram_std": 5.847925944369219,
+        "response_time_ms": 6261.84,
+        "total_decisiones": 34
+      },
+      "diferencia": {
+        "iplr_percent": 0,
+        "iptd_avg_ms": -0.1,
+        "ipdv_jitter_ms": -0.17,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 5,
+      "nombre": "Ráfagas",
+      "RR": {
+        "iplr_percent": 5.95,
+        "iptd_avg_ms": 26.59,
+        "ipdv_jitter_ms": 7.26,
+        "throughput": {
+          "srv1": 3.07,
+          "srv2": 3.22,
+          "srv3": 2.91,
+          "srv4": 2.76
+        },
+        "recovery_s": 8,
+        "recovery_ms": 8000,
+        "equidad_cpu_std": 23.174159782885976,
+        "equidad_ram_std": 10.94549051983449,
+        "response_time_ms": 7213.68,
+        "total_decisiones": 20
+      },
+      "IA": {
+        "iplr_percent": 5.83,
+        "iptd_avg_ms": 30.23,
+        "ipdv_jitter_ms": 5.7,
+        "throughput": {
+          "srv1": 2.93,
+          "srv2": 3.0,
+          "srv3": 2.92,
+          "srv4": 2.91
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 15.828592150795682,
+        "equidad_ram_std": 3.031064690820345,
+        "response_time_ms": 6242.19,
+        "total_decisiones": 23
+      },
+      "diferencia": {
+        "iplr_percent": -0.12,
+        "iptd_avg_ms": 3.64,
+        "ipdv_jitter_ms": -1.56,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 6,
+      "nombre": "Jitter",
+      "RR": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 0.95,
+        "ipdv_jitter_ms": 2.49,
+        "throughput": {
+          "srv1": 10.0,
+          "srv2": 10.0,
+          "srv3": 9.48,
+          "srv4": 9.61
+        },
+        "recovery_s": 1,
+        "recovery_ms": 1000,
+        "equidad_cpu_std": 23.174159782885976,
+        "equidad_ram_std": 10.94549051983449,
+        "response_time_ms": 5752.47,
+        "total_decisiones": 20
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.23,
+        "ipdv_jitter_ms": 2.42,
+        "throughput": {
+          "srv1": 9.61,
+          "srv2": 10.2,
+          "srv3": 10.1,
+          "srv4": 9.77
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 9.936376653669459,
+        "equidad_ram_std": 5.322366773868016,
+        "response_time_ms": 5510.79,
+        "total_decisiones": 21
+      },
+      "diferencia": {
+        "iplr_percent": 0,
+        "iptd_avg_ms": 0.28,
+        "ipdv_jitter_ms": -0.07,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 7,
+      "nombre": "Congestión",
+      "RR": {
+        "iplr_percent": 4.88,
+        "iptd_avg_ms": 0.17,
+        "ipdv_jitter_ms": 0.08,
+        "throughput": {
+          "srv1": 9.93,
+          "srv2": 10.1,
+          "srv3": 9.88,
+          "srv4": 10.2
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 14.037572960324175,
+        "equidad_ram_std": 14.850595936445156,
+        "response_time_ms": 8247.35,
+        "total_decisiones": 28
+      },
+      "IA": {
+        "iplr_percent": 5.0,
+        "iptd_avg_ms": 0.16,
+        "ipdv_jitter_ms": 0.08,
+        "throughput": {
+          "srv1": 10.1,
+          "srv2": 9.99,
+          "srv3": 9.92,
+          "srv4": 10.2
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 11.005733074307244,
+        "equidad_ram_std": 5.475971562493648,
+        "response_time_ms": 8216.93,
+        "total_decisiones": 29
+      },
+      "diferencia": {
+        "iplr_percent": 0.12,
+        "iptd_avg_ms": -0.01,
+        "ipdv_jitter_ms": 0.0,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 8,
+      "nombre": "Tráfico Mixto",
+      "RR": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.44,
+        "ipdv_jitter_ms": 2.86,
+        "throughput": {
+          "srv1": 10.1,
+          "srv2": 10.0,
+          "srv3": 9.82,
+          "srv4": 10.2
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 22.80897814804638,
+        "equidad_ram_std": 10.532620235167117,
+        "response_time_ms": 8227.44,
+        "total_decisiones": 26
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.07,
+        "ipdv_jitter_ms": 1.91,
+        "throughput": {
+          "srv1": 9.99,
+          "srv2": 10.0,
+          "srv3": 9.56,
+          "srv4": 10.0
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 14.346256608473453,
+        "equidad_ram_std": 13.066480536913472,
+        "response_time_ms": 6858.17,
+        "total_decisiones": 31
+      },
+      "diferencia": {
+        "iplr_percent": 0,
+        "iptd_avg_ms": -0.37,
+        "ipdv_jitter_ms": -0.95,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 9,
+      "nombre": "Caída Servidor",
+      "RR": {
+        "iplr_percent": 2.62,
+        "iptd_avg_ms": 135.63,
+        "ipdv_jitter_ms": 28.93,
+        "throughput": {
+          "srv1": 2.55,
+          "srv2": 1.86,
+          "srv3": 2.64,
+          "srv4": 5.05
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 32.78599817903061,
+        "equidad_ram_std": 27.079206887916637,
+        "response_time_ms": 8800.38,
+        "total_decisiones": 20
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 10.39,
+        "ipdv_jitter_ms": 2.88,
+        "throughput": {
+          "srv1": 2.5,
+          "srv2": 2.08,
+          "srv3": 2.01,
+          "srv4": 4.77
+        },
+        "recovery_s": 60,
+        "recovery_ms": 60000,
+        "equidad_cpu_std": 21.40980903650551,
+        "equidad_ram_std": 28.741349296937752,
+        "response_time_ms": 5478.81,
+        "total_decisiones": 29
+      },
+      "diferencia": {
+        "iplr_percent": -2.62,
+        "iptd_avg_ms": -125.24,
+        "ipdv_jitter_ms": -26.05,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    },
+    {
+      "prueba": 10,
+      "nombre": "Resiliencia",
+      "RR": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.2,
+        "ipdv_jitter_ms": 2.27,
+        "throughput": {
+          "srv1": 9.7,
+          "srv2": 9.82,
+          "srv3": 9.84,
+          "srv4": 9.91
+        },
+        "recovery_s": 1,
+        "recovery_ms": 1000,
+        "equidad_cpu_std": 23.174159782885976,
+        "equidad_ram_std": 10.94549051983449,
+        "response_time_ms": 55230.9,
+        "total_decisiones": 20
+      },
+      "IA": {
+        "iplr_percent": 0.0,
+        "iptd_avg_ms": 1.11,
+        "ipdv_jitter_ms": 2.28,
+        "throughput": {
+          "srv1": 9.69,
+          "srv2": 9.89,
+          "srv3": 10.1,
+          "srv4": 10.1
+        },
+        "recovery_s": 1,
+        "recovery_ms": 1000,
+        "equidad_cpu_std": 9.6060556862582,
+        "equidad_ram_std": 5.751967044908117,
+        "response_time_ms": 4147.35,
+        "total_decisiones": 254
+      },
+      "diferencia": {
+        "iplr_percent": 0,
+        "iptd_avg_ms": -0.09,
+        "ipdv_jitter_ms": 0.01,
+        "nota": "Valores negativos = IA es mejor"
+      }
+    }
+  ]
+}

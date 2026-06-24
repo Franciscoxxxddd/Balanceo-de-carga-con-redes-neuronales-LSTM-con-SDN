@@ -1,0 +1,105 @@
+# ═══════════════════════════════════════════════════════════════
+#  COMANDOS DE EJECUCIÓN - PRUEBAS COMPARATIVAS SDN (RR vs IA)
+#  Seed: 42 | BW Troncal: 10 Mbps | Cola: 50 paquetes
+#  Métricas: ITU-T Y.1540 (IPLR, IPTD, IPDV) + RFC 2544
+# ═══════════════════════════════════════════════════════════════
+
+# PRERREQUISITOS:
+# 1. Limpiar entorno: sudo mn -c
+# 2. Iniciar controlador RR o IA en terminal separada:
+#    cd /home/francisco/Desktop/ryu
+#    ryu-manager ryu/app/LSTM_Mininet_4Servidores/ryu_service_rr.py
+#    ryu-manager ryu/app/LSTM_Mininet_4Servidores/ryu_service_ai.py
+# 3. Cada prueba se ejecuta con argumento RR o IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 1: Tráfico Base (Control)
+#  Carga: Baja (70-100 pps) | Puerto 80
+#  Métricas: IPLR, IPTD, IPDV, Throughput, Back-to-Back, Equidad
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba1_trafico_base/prueba1.py RR
+sudo python3 pruebas/prueba1_trafico_base/prueba1.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 2: Operación Diaria (Normal)
+#  Carga: Media (100-200 pps) | 12 hosts simultáneos
+#  Métricas: IPLR, IPTD, IPDV, Throughput, Back-to-Back, Equidad
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba2_operacion_diaria/prueba2.py RR
+sudo python3 pruebas/prueba2_operacion_diaria/prueba2.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 3: Estrés Crítico (Saturación) ⚠️  PÉRDIDA GARANTIZADA
+#  Carga: Alta (>250 pps) | iperf masivo + netem
+#  Métricas: IPLR (>0%), IPTD, IPDV, Throughput, Back-to-Back,
+#            System Recovery, Equidad
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba3_saturacion/prueba3.py RR
+sudo python3 pruebas/prueba3_saturacion/prueba3.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 4: Tráfico Pesado (Streaming) ⚠️  PÉRDIDA GARANTIZADA
+#  Carga: Alta TCP | Puerto 8080 | 3 flujos/host
+#  Métricas: IPLR, IPTD, IPDV, Throughput, Back-to-Back, Equidad
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba4_streaming/prueba4.py RR
+sudo python3 pruebas/prueba4_streaming/prueba4.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 5: Ráfagas Asimétricas (Spikes) ⚠️  PÉRDIDA GARANTIZADA
+#  Carga: Variable 10 → 300 pps en <5 segundos
+#  Métricas: IPLR, IPTD, IPDV, Throughput, System Recovery, Equidad
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba5_rafagas/prueba5.py RR
+sudo python3 pruebas/prueba5_rafagas/prueba5.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 6: Degradación de Enlace (Jitter)
+#  Carga: 70 pps | Retardo 50ms en srv1/srv2
+#  Métricas: IPLR, IPTD, IPDV (Streaming + VoIP), Throughput
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba6_jitter/prueba6.py RR
+sudo python3 pruebas/prueba6_jitter/prueba6.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 7: Congestión en Switches ⚠️  PÉRDIDA GARANTIZADA
+#  Carga: Alta | 5% loss forzado en clientes
+#  Métricas: IPLR (>0%), IPTD, IPDV, Throughput, Back-to-Back
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba7_packet_loss/prueba7.py RR
+sudo python3 pruebas/prueba7_packet_loss/prueba7.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 8: Tráfico Mixto Concurrente ⚠️  PÉRDIDA GARANTIZADA
+#  Carga: Media-Alta | 50% HTTP + 50% Streaming
+#  Métricas: IPLR, IPTD, IPDV, Throughput, Back-to-Back, Equidad
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba8_trafico_mixto/prueba8.py RR
+sudo python3 pruebas/prueba8_trafico_mixto/prueba8.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 9: Simulación de Caída de Servidor ⚠️  PÉRDIDA GARANTIZADA
+#  Carga: Media | srv4 CPU/RAM al 100%
+#  Métricas: IPLR, IPTD, Throughput, System Recovery, Equidad
+#  NOTA: Requiere 'stress' (sudo apt-get install stress)
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba9_caida/prueba9.py RR
+sudo python3 pruebas/prueba9_caida/prueba9.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  PRUEBA 10: Resiliencia (15 minutos)
+#  Carga: Fluctuante 70-300 pps | seed=42
+#  Métricas: IPLR, IPTD, Throughput, System Recovery, Equidad temporal
+# ═══════════════════════════════════════════════════════════════
+sudo python3 pruebas/prueba10_resiliencia/prueba10.py RR
+sudo python3 pruebas/prueba10_resiliencia/prueba10.py IA
+
+# ═══════════════════════════════════════════════════════════════
+#  GENERAR REPORTES COMPARATIVOS
+#  Ejecutar DESPUÉS de completar las 20 ejecuciones (10×RR + 10×IA)
+# ═══════════════════════════════════════════════════════════════
+python3 pruebas/generar_reportes.py
+# Genera 3 archivos en pruebas/reportes/:
+#   1. reporte_metricas_globales.json     → ITU-T Y.1540 + RFC 2544
+#   2. reporte_asignacion_comparativa.json → Servidor por petición
+#   3. reporte_conmutacion_ia.json        → Eventos de saturación (IA)

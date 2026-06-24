@@ -1,0 +1,2794 @@
+{
+  "prueba": 8,
+  "nombre": "Tr\u00e1fico Mixto Concurrente",
+  "modo": "IA",
+  "controlador": "ryu_service_ai.py",
+  "seed": 42,
+  "bw_trunk_mbps": 10,
+  "bw_access_mbps": 100,
+  "queue_size": 50,
+  "inicio": "2026-05-05 08:57:15",
+  "duracion_config": 60,
+  "metricas": {
+    "iplr": {
+      "cli1": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli2": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli3": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli4": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli5": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli6": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli7": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli8": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli9": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli10": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli11": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      },
+      "cli12": {
+        "enviados": 70,
+        "recibidos": 70,
+        "perdidos": 0,
+        "porcentaje": 0.0
+      }
+    },
+    "iptd": {
+      "cli1": {
+        "min": 0.089,
+        "avg": 0.786,
+        "max": 11.895,
+        "mdev": 2.55,
+        "loss": 0.0
+      },
+      "cli2": {
+        "min": 0.078,
+        "avg": 1.047,
+        "max": 15.835,
+        "mdev": 3.403,
+        "loss": 0.0
+      },
+      "cli3": {
+        "min": 0.08,
+        "avg": 0.859,
+        "max": 13.452,
+        "mdev": 2.899,
+        "loss": 0.0
+      },
+      "cli4": {
+        "min": 0.097,
+        "avg": 0.997,
+        "max": 15.034,
+        "mdev": 3.23,
+        "loss": 0.0
+      },
+      "cli5": {
+        "min": 0.087,
+        "avg": 1.154,
+        "max": 19.022,
+        "mdev": 4.1,
+        "loss": 0.0
+      },
+      "cli6": {
+        "min": 0.107,
+        "avg": 1.21,
+        "max": 20.453,
+        "mdev": 4.416,
+        "loss": 0.0
+      },
+      "cli7": {
+        "min": 0.094,
+        "avg": 1.345,
+        "max": 22.685,
+        "mdev": 4.899,
+        "loss": 0.0
+      },
+      "cli8": {
+        "min": 0.104,
+        "avg": 1.02,
+        "max": 15.483,
+        "mdev": 3.326,
+        "loss": 0.0
+      },
+      "cli9": {
+        "min": 0.075,
+        "avg": 1.388,
+        "max": 23.977,
+        "mdev": 5.185,
+        "loss": 0.0
+      },
+      "cli10": {
+        "min": 0.078,
+        "avg": 0.809,
+        "max": 13.458,
+        "mdev": 2.903,
+        "loss": 0.0
+      },
+      "cli11": {
+        "min": 0.077,
+        "avg": 0.953,
+        "max": 15.937,
+        "mdev": 3.439,
+        "loss": 0.0
+      },
+      "cli12": {
+        "min": 0.113,
+        "avg": 1.307,
+        "max": 21.255,
+        "mdev": 4.58,
+        "loss": 0.0
+      }
+    },
+    "ipdv": {
+      "cli1": {
+        "avg_delay": 0.425,
+        "jitter_mdev": 1.994,
+        "min": 0.083,
+        "max": 16.981
+      },
+      "cli2": {
+        "avg_delay": 0.477,
+        "jitter_mdev": 2.563,
+        "min": 0.09,
+        "max": 21.761
+      },
+      "cli3": {
+        "avg_delay": 0.368,
+        "jitter_mdev": 1.829,
+        "min": 0.081,
+        "max": 15.542
+      },
+      "cli4": {
+        "avg_delay": 0.274,
+        "jitter_mdev": 1.097,
+        "min": 0.073,
+        "max": 9.374
+      },
+      "cli5": {
+        "avg_delay": 0.44,
+        "jitter_mdev": 2.236,
+        "min": 0.086,
+        "max": 19.008
+      },
+      "cli6": {
+        "avg_delay": 0.358,
+        "jitter_mdev": 1.339,
+        "min": 0.084,
+        "max": 11.46
+      },
+      "cli7": {
+        "avg_delay": 0.467,
+        "jitter_mdev": 2.398,
+        "min": 0.071,
+        "max": 20.367
+      },
+      "cli8": {
+        "avg_delay": 0.52,
+        "jitter_mdev": 2.942,
+        "min": 0.075,
+        "max": 24.95
+      },
+      "cli9": {
+        "avg_delay": 0.36,
+        "jitter_mdev": 1.567,
+        "min": 0.08,
+        "max": 13.341
+      },
+      "cli10": {
+        "avg_delay": 0.402,
+        "jitter_mdev": 1.739,
+        "min": 0.089,
+        "max": 14.786
+      },
+      "cli11": {
+        "avg_delay": 0.353,
+        "jitter_mdev": 1.452,
+        "min": 0.077,
+        "max": 12.396
+      },
+      "cli12": {
+        "avg_delay": 0.361,
+        "jitter_mdev": 1.752,
+        "min": 0.071,
+        "max": 14.904
+      }
+    },
+    "throughput": {
+      "srv1": 9.99,
+      "srv2": 10.0,
+      "srv3": 9.56,
+      "srv4": 10.0
+    },
+    "perdida_general": 0.0,
+    "jitter_avg": 1.91,
+    "latencia_avg": 1.07,
+    "ipdv_streaming": {
+      "cli1": {
+        "avg_delay": 1.02,
+        "jitter_mdev": 6.49,
+        "min": 0.085,
+        "max": 54.757
+      },
+      "cli2": {
+        "avg_delay": 1.188,
+        "jitter_mdev": 7.42,
+        "min": 0.08,
+        "max": 62.247
+      },
+      "cli3": {
+        "avg_delay": 1.146,
+        "jitter_mdev": 7.234,
+        "min": 0.078,
+        "max": 60.886
+      },
+      "cli4": {
+        "avg_delay": 0.956,
+        "jitter_mdev": 6.052,
+        "min": 0.076,
+        "max": 51.197
+      }
+    },
+    "ipdv_voip": {
+      "cli1": {
+        "avg_delay": 0.647,
+        "jitter_mdev": 3.629,
+        "min": 0.071,
+        "max": 30.771
+      },
+      "cli2": {
+        "avg_delay": 0.546,
+        "jitter_mdev": 3.124,
+        "min": 0.078,
+        "max": 26.487
+      },
+      "cli3": {
+        "avg_delay": 0.796,
+        "jitter_mdev": 5.093,
+        "min": 0.091,
+        "max": 43.099
+      },
+      "cli4": {
+        "avg_delay": 0.492,
+        "jitter_mdev": 2.74,
+        "min": 0.069,
+        "max": 23.241
+      }
+    },
+    "throughput_streaming": {
+      "cli7": 17.7,
+      "cli8": 14.0,
+      "cli9": 35.0,
+      "cli10": 13.2,
+      "cli11": 14.5,
+      "cli12": 12.8
+    },
+    "perfil_http": [
+      "cli1",
+      "cli2",
+      "cli3",
+      "cli4",
+      "cli5",
+      "cli6"
+    ],
+    "perfil_streaming": [
+      "cli7",
+      "cli8",
+      "cli9",
+      "cli10",
+      "cli11",
+      "cli12"
+    ],
+    "back_to_back": {
+      "burst_10": {
+        "frames_enviados": 10,
+        "loss_percent": 0.0,
+        "detalle": "0/   10"
+      },
+      "burst_50": {
+        "frames_enviados": 50,
+        "loss_percent": 0.0,
+        "detalle": "0/   50"
+      },
+      "burst_100": {
+        "frames_enviados": 100,
+        "loss_percent": 36.0,
+        "detalle": "36/  101"
+      },
+      "burst_200": {
+        "frames_enviados": 200,
+        "loss_percent": 60.0,
+        "detalle": "121/  200"
+      },
+      "burst_500": {
+        "frames_enviados": 500,
+        "loss_percent": 74.0,
+        "detalle": "371/  501"
+      }
+    },
+    "equidad": {
+      "cpu": {
+        "valores": [
+          20.43610131390638,
+          49.09663311577816,
+          46.21194511060101,
+          51.198903758142045
+        ],
+        "promedio": 41.7358958246069,
+        "desviacion_std": 14.346256608473453
+      },
+      "ram": {
+        "valores": [
+          26.04141147700863,
+          31.092581313436213,
+          54.14086227685742,
+          27.895495615890468
+        ],
+        "promedio": 34.792587670798184,
+        "desviacion_std": 13.066480536913472
+      }
+    },
+    "recovery": {
+      "recovery_s": 60,
+      "recovery_ms": 60000,
+      "latencia_final": 0.102,
+      "latencia_inicial": 0.102,
+      "estable": false
+    }
+  },
+  "controlador_stats": {
+    "muestras": 290,
+    "cpu_avg": 8.183103448275862,
+    "cpu_max": 28.3,
+    "ram_avg": 6.7,
+    "ram_max": 6.7,
+    "historial": [
+      {
+        "timestamp": 1777996635.375268,
+        "cpu_percent": 28.3,
+        "ram_percent": 6.7,
+        "ram_kb": 544800
+      },
+      {
+        "timestamp": 1777996636.4246793,
+        "cpu_percent": 27.1,
+        "ram_percent": 6.7,
+        "ram_kb": 544800
+      },
+      {
+        "timestamp": 1777996637.4893317,
+        "cpu_percent": 26.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996638.5459416,
+        "cpu_percent": 27.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996639.5974689,
+        "cpu_percent": 26.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996640.6362007,
+        "cpu_percent": 25.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996641.700584,
+        "cpu_percent": 25.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996642.7873292,
+        "cpu_percent": 24.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996643.8328514,
+        "cpu_percent": 24.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996644.9293885,
+        "cpu_percent": 24.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996645.992957,
+        "cpu_percent": 23.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996647.0405092,
+        "cpu_percent": 23.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996648.1019907,
+        "cpu_percent": 22.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996649.1631675,
+        "cpu_percent": 22.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996650.243565,
+        "cpu_percent": 22.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996651.289481,
+        "cpu_percent": 21.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996652.3371396,
+        "cpu_percent": 21.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996653.377932,
+        "cpu_percent": 21.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996654.4336002,
+        "cpu_percent": 20.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996655.4812555,
+        "cpu_percent": 20.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996656.5523667,
+        "cpu_percent": 20.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996657.6009135,
+        "cpu_percent": 19.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996658.6536026,
+        "cpu_percent": 19.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996659.7040944,
+        "cpu_percent": 19.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996660.7565455,
+        "cpu_percent": 19.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996661.7985213,
+        "cpu_percent": 19.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996662.8471823,
+        "cpu_percent": 18.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996663.899558,
+        "cpu_percent": 18.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996664.9526236,
+        "cpu_percent": 18.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996666.0225866,
+        "cpu_percent": 17.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996667.1094062,
+        "cpu_percent": 17.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996668.163136,
+        "cpu_percent": 17.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996669.212088,
+        "cpu_percent": 16.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996670.2680476,
+        "cpu_percent": 16.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996671.3212597,
+        "cpu_percent": 16.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996672.3680718,
+        "cpu_percent": 15.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996673.4187307,
+        "cpu_percent": 15.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996674.468055,
+        "cpu_percent": 15.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996675.5292592,
+        "cpu_percent": 15.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996676.6125484,
+        "cpu_percent": 14.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996677.6625907,
+        "cpu_percent": 14.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996678.7191179,
+        "cpu_percent": 14.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996679.7682388,
+        "cpu_percent": 14.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996680.8233068,
+        "cpu_percent": 13.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996681.8748906,
+        "cpu_percent": 13.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996682.928508,
+        "cpu_percent": 13.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996683.9811969,
+        "cpu_percent": 13.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996685.0186117,
+        "cpu_percent": 13.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996686.0674865,
+        "cpu_percent": 12.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996687.112799,
+        "cpu_percent": 12.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996688.1624086,
+        "cpu_percent": 12.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996689.2113814,
+        "cpu_percent": 12.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996690.260568,
+        "cpu_percent": 12.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996691.3120658,
+        "cpu_percent": 12.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996692.3628547,
+        "cpu_percent": 11.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996693.416085,
+        "cpu_percent": 11.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996694.4680183,
+        "cpu_percent": 11.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996695.5218089,
+        "cpu_percent": 11.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996696.566606,
+        "cpu_percent": 11.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996697.6122477,
+        "cpu_percent": 11.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996698.6676352,
+        "cpu_percent": 11.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996699.7192981,
+        "cpu_percent": 10.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996700.773215,
+        "cpu_percent": 10.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996701.8190048,
+        "cpu_percent": 10.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996702.8641393,
+        "cpu_percent": 10.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996703.9446263,
+        "cpu_percent": 10.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996704.9962199,
+        "cpu_percent": 10.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996706.0490408,
+        "cpu_percent": 10.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996707.1027577,
+        "cpu_percent": 10.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996708.1562893,
+        "cpu_percent": 10.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996709.2099435,
+        "cpu_percent": 9.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996710.2554736,
+        "cpu_percent": 9.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996711.3007202,
+        "cpu_percent": 9.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996712.3552585,
+        "cpu_percent": 9.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996713.4036932,
+        "cpu_percent": 9.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996714.4562733,
+        "cpu_percent": 9.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996715.5007331,
+        "cpu_percent": 9.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996716.5488024,
+        "cpu_percent": 9.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996717.5941489,
+        "cpu_percent": 9.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996718.641504,
+        "cpu_percent": 9.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996719.6932666,
+        "cpu_percent": 8.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996720.7404609,
+        "cpu_percent": 8.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996721.7979522,
+        "cpu_percent": 8.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996722.8500197,
+        "cpu_percent": 8.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996723.9006894,
+        "cpu_percent": 8.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996724.955781,
+        "cpu_percent": 8.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996726.0165446,
+        "cpu_percent": 8.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996727.0710568,
+        "cpu_percent": 8.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996728.1230745,
+        "cpu_percent": 8.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996729.1761055,
+        "cpu_percent": 8.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996730.2197719,
+        "cpu_percent": 8.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996731.317182,
+        "cpu_percent": 8.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996732.3652723,
+        "cpu_percent": 8.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996733.4186437,
+        "cpu_percent": 8.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996734.4673016,
+        "cpu_percent": 8.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996735.5170999,
+        "cpu_percent": 8.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996736.5717502,
+        "cpu_percent": 7.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996737.6253488,
+        "cpu_percent": 7.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996738.6755018,
+        "cpu_percent": 7.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996739.7322822,
+        "cpu_percent": 7.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996740.797426,
+        "cpu_percent": 7.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996741.8984525,
+        "cpu_percent": 7.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996742.9970376,
+        "cpu_percent": 7.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996744.0536807,
+        "cpu_percent": 7.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996745.1039524,
+        "cpu_percent": 7.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996746.1593306,
+        "cpu_percent": 7.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996747.2107418,
+        "cpu_percent": 7.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996748.2684307,
+        "cpu_percent": 7.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996749.3121948,
+        "cpu_percent": 7.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996750.352258,
+        "cpu_percent": 7.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996751.398231,
+        "cpu_percent": 7.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996752.4918768,
+        "cpu_percent": 7.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996753.5379295,
+        "cpu_percent": 7.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996754.5866587,
+        "cpu_percent": 7.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996755.63573,
+        "cpu_percent": 6.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996756.7038207,
+        "cpu_percent": 6.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996757.7537642,
+        "cpu_percent": 6.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996758.8033822,
+        "cpu_percent": 6.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996759.8546674,
+        "cpu_percent": 6.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996760.9323254,
+        "cpu_percent": 6.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996762.0502696,
+        "cpu_percent": 6.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996763.1031618,
+        "cpu_percent": 6.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996764.1514592,
+        "cpu_percent": 6.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996765.2044258,
+        "cpu_percent": 6.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996766.2538435,
+        "cpu_percent": 6.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996767.3026826,
+        "cpu_percent": 6.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996768.3530498,
+        "cpu_percent": 6.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996769.4065506,
+        "cpu_percent": 6.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996770.4554398,
+        "cpu_percent": 6.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996771.5467436,
+        "cpu_percent": 6.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996772.61128,
+        "cpu_percent": 6.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996773.663533,
+        "cpu_percent": 6.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996774.7194378,
+        "cpu_percent": 6.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996775.761968,
+        "cpu_percent": 6.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996776.8107712,
+        "cpu_percent": 6.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996777.869426,
+        "cpu_percent": 6.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996778.9167514,
+        "cpu_percent": 6.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996779.9655457,
+        "cpu_percent": 6.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996781.015829,
+        "cpu_percent": 6.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996782.0909088,
+        "cpu_percent": 6.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996783.1415274,
+        "cpu_percent": 5.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996784.1938019,
+        "cpu_percent": 5.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996785.2422328,
+        "cpu_percent": 5.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996786.2937207,
+        "cpu_percent": 5.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996787.3374538,
+        "cpu_percent": 5.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996788.3872778,
+        "cpu_percent": 5.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996789.439133,
+        "cpu_percent": 5.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996790.507426,
+        "cpu_percent": 5.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996791.5785089,
+        "cpu_percent": 5.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996792.6260698,
+        "cpu_percent": 5.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996793.67979,
+        "cpu_percent": 5.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996794.7402964,
+        "cpu_percent": 5.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996795.7887893,
+        "cpu_percent": 5.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996796.8387532,
+        "cpu_percent": 5.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996797.8837156,
+        "cpu_percent": 5.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996798.925058,
+        "cpu_percent": 5.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996800.0201044,
+        "cpu_percent": 5.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996801.0650403,
+        "cpu_percent": 5.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996802.11472,
+        "cpu_percent": 5.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996803.1700213,
+        "cpu_percent": 5.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996804.217932,
+        "cpu_percent": 5.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996805.2675831,
+        "cpu_percent": 5.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996806.3268714,
+        "cpu_percent": 5.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996807.3763902,
+        "cpu_percent": 5.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996808.4281788,
+        "cpu_percent": 5.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996809.5235949,
+        "cpu_percent": 5.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996810.5770762,
+        "cpu_percent": 5.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996811.629182,
+        "cpu_percent": 5.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996812.6790159,
+        "cpu_percent": 5.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996813.7265482,
+        "cpu_percent": 5.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996814.778549,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996815.8275754,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996816.889216,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996817.9315164,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996819.0114055,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996820.0627234,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996821.1150723,
+        "cpu_percent": 5.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996822.1679595,
+        "cpu_percent": 4.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996823.2126338,
+        "cpu_percent": 4.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996824.2640784,
+        "cpu_percent": 4.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996825.3190331,
+        "cpu_percent": 4.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996826.3678315,
+        "cpu_percent": 4.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996827.4177139,
+        "cpu_percent": 4.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996828.515224,
+        "cpu_percent": 4.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996829.5658484,
+        "cpu_percent": 4.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996830.6153579,
+        "cpu_percent": 4.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996831.6634924,
+        "cpu_percent": 4.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996832.7138548,
+        "cpu_percent": 4.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996833.7628744,
+        "cpu_percent": 4.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996834.8161263,
+        "cpu_percent": 4.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996835.86336,
+        "cpu_percent": 4.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996836.9220374,
+        "cpu_percent": 4.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996838.0040927,
+        "cpu_percent": 4.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996839.0560846,
+        "cpu_percent": 4.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996840.1042938,
+        "cpu_percent": 4.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996841.1536815,
+        "cpu_percent": 4.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996842.2048466,
+        "cpu_percent": 4.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996843.2566319,
+        "cpu_percent": 4.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996844.3059456,
+        "cpu_percent": 4.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996845.349904,
+        "cpu_percent": 4.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996846.4016337,
+        "cpu_percent": 4.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996847.508815,
+        "cpu_percent": 4.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996848.5565681,
+        "cpu_percent": 4.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996849.6105797,
+        "cpu_percent": 4.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996850.6630802,
+        "cpu_percent": 4.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996851.7185895,
+        "cpu_percent": 4.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996852.7657137,
+        "cpu_percent": 4.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996853.818443,
+        "cpu_percent": 4.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996854.8696826,
+        "cpu_percent": 4.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996855.9108417,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996856.996878,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996858.0455205,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996859.097542,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996860.146909,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996861.20719,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996862.2590857,
+        "cpu_percent": 4.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996863.3131363,
+        "cpu_percent": 4.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996864.3572876,
+        "cpu_percent": 4.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996865.409798,
+        "cpu_percent": 4.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996866.4577656,
+        "cpu_percent": 4.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996867.523257,
+        "cpu_percent": 4.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996868.5750873,
+        "cpu_percent": 4.2,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996869.6279063,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996870.6823153,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996871.7399023,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996872.7896254,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996873.845056,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996874.896127,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996875.952117,
+        "cpu_percent": 4.1,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996877.0004692,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996878.0952144,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996879.1367834,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996880.1958077,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996881.2492058,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996882.3052168,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996883.356047,
+        "cpu_percent": 4.0,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996884.408846,
+        "cpu_percent": 3.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996885.4596002,
+        "cpu_percent": 3.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996886.5130148,
+        "cpu_percent": 3.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996887.5775077,
+        "cpu_percent": 3.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996888.6373315,
+        "cpu_percent": 3.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996889.6894739,
+        "cpu_percent": 3.9,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996890.7398617,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996891.7882156,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996892.8464804,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996893.891229,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996894.9332182,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996895.9753804,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996897.041962,
+        "cpu_percent": 3.8,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996898.1438763,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996899.1967998,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996900.246815,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996901.2959156,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996902.3487182,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996903.3967605,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996904.4493968,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996905.5026195,
+        "cpu_percent": 3.7,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996906.5529373,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996907.6459968,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996908.6940274,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996909.7462661,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996910.794883,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996911.8450322,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996912.8956451,
+        "cpu_percent": 3.6,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996913.9448183,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996914.9945664,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996916.0747058,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996917.163904,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996918.2227333,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996919.2741861,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996920.3218195,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996921.3726342,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996922.421287,
+        "cpu_percent": 3.5,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996923.4701838,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996924.518759,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996925.557139,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996926.6216893,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996927.6612725,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996928.7121108,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996929.7624187,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996930.8144681,
+        "cpu_percent": 3.4,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996931.866882,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996932.9194784,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996933.971073,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996935.021559,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996936.0740652,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996937.1198456,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996938.1699412,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996939.2213335,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      },
+      {
+        "timestamp": 1777996940.2754824,
+        "cpu_percent": 3.3,
+        "ram_percent": 6.7,
+        "ram_kb": 545476
+      }
+    ]
+  },
+  "fin": "2026-05-05 09:02:22",
+  "response_time_avg_ms": 6858.17,
+  "response_time_total_decisions": 31,
+  "decisiones": [
+    {
+      "timestamp": 1777996637.3986416,
+      "cliente": "10.0.0.13",
+      "servicio": "WEB",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 18.559096704220718,
+        "jitter": 1.8270963996684806,
+        "loss": 0,
+        "srv1_cpu": 48.33026207648506,
+        "srv1_ram": 47.01983725098863,
+        "srv2_cpu": 48.086175743256696,
+        "srv2_ram": 25.026465856590427,
+        "srv3_cpu": 54.984775161015726,
+        "srv3_ram": 37.326625215028315,
+        "srv4_cpu": 46.745619737822075,
+        "srv4_ram": 41.158847867008554,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.4326425,
+      "cliente": "10.0.0.12",
+      "servicio": "WEB",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 22.32297736906721,
+        "jitter": 3.163558686599143,
+        "loss": 0,
+        "srv1_cpu": 59.849547601980035,
+        "srv1_ram": 41.10507177443832,
+        "srv2_cpu": 38.92517596482769,
+        "srv2_ram": 29.85337632512283,
+        "srv3_cpu": 53.69513292816803,
+        "srv3_ram": 53.11080827204048,
+        "srv4_cpu": 50.62485295855076,
+        "srv4_ram": 38.936767062292155,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.459542,
+      "cliente": "10.0.0.11",
+      "servicio": "WEB",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 25.317762204008694,
+        "jitter": 0.546454701991322,
+        "loss": 0,
+        "srv1_cpu": 45.315840242831605,
+        "srv1_ram": 44.903625325935245,
+        "srv2_cpu": 63.1010657806917,
+        "srv2_ram": 37.59370327344865,
+        "srv3_cpu": 55.64899788031865,
+        "srv3_ram": 42.48213449328414,
+        "srv4_cpu": 61.73490213055463,
+        "srv4_ram": 28.867777857518274,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.4861386,
+      "cliente": "10.0.0.14",
+      "servicio": "WEB",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 25.682506875853857,
+        "jitter": 0.48547960827486025,
+        "loss": 0,
+        "srv1_cpu": 10.700818666717225,
+        "srv1_ram": 33.931092718004976,
+        "srv2_cpu": 36.262849304810075,
+        "srv2_ram": 48.76012243056407,
+        "srv3_cpu": 59.96398849419342,
+        "srv3_ram": 27.809252587043048,
+        "srv4_cpu": 62.71042135022,
+        "srv4_ram": 29.977971757576505,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.507386,
+      "cliente": "10.0.0.15",
+      "servicio": "WEB",
+      "servidor": "srv4",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 19.137561536637158,
+        "jitter": 1.7061002220434678,
+        "loss": 0,
+        "srv1_cpu": 51.716297861913816,
+        "srv1_ram": 48.18636311543767,
+        "srv2_cpu": 59.576206861886654,
+        "srv2_ram": 43.498851018692086,
+        "srv3_cpu": 59.74922146709448,
+        "srv3_ram": 44.784920376501184,
+        "srv4_cpu": 40.595218021706,
+        "srv4_ram": 32.826289061834224,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.531543,
+      "cliente": "10.0.0.16",
+      "servicio": "WEB",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 15.300317258639861,
+        "jitter": 2.4993264004767815,
+        "loss": 0,
+        "srv1_cpu": 46.248266435039234,
+        "srv1_ram": 63.35754222480548,
+        "srv2_cpu": 37.7106118672026,
+        "srv2_ram": 29.01125400097842,
+        "srv3_cpu": 61.52710273204545,
+        "srv3_ram": 54.218499813434654,
+        "srv4_cpu": 57.585390362588896,
+        "srv4_ram": 48.358173459676735,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.5546002,
+      "cliente": "10.0.0.18",
+      "servicio": "STREAMING",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 34.26344977442162,
+        "jitter": 1.9059725239836962,
+        "loss": 0,
+        "srv1_cpu": 28.655616002915345,
+        "srv1_ram": 34.679234516812876,
+        "srv2_cpu": 64.29343635974865,
+        "srv2_ram": 25.56321593921712,
+        "srv3_cpu": 50.50296981180892,
+        "srv3_ram": 42.532373593420616,
+        "srv4_cpu": 45.26611752779494,
+        "srv4_ram": 47.23631986368097,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.5748582,
+      "cliente": "10.0.0.17",
+      "servicio": "STREAMING",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 30.84741113453604,
+        "jitter": 2.8933551987382065,
+        "loss": 0,
+        "srv1_cpu": 54.10539973111313,
+        "srv1_ram": 29.89055696554688,
+        "srv2_cpu": 63.55077971516892,
+        "srv2_ram": 43.81047127955752,
+        "srv3_cpu": 68.40412324571331,
+        "srv3_ram": 39.70093407318787,
+        "srv4_cpu": 79.29651386725769,
+        "srv4_ram": 36.41123659678178,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.5933306,
+      "cliente": "10.0.0.21",
+      "servicio": "STREAMING",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 20.977763472886767,
+        "jitter": 0.7587106233643044,
+        "loss": 0,
+        "srv1_cpu": 53.299181452250195,
+        "srv1_ram": 27.903824030263653,
+        "srv2_cpu": 63.27797465537217,
+        "srv2_ram": 40.031808227579894,
+        "srv3_cpu": 84.25147200271626,
+        "srv3_ram": 42.808405135310345,
+        "srv4_cpu": 70.48534235649123,
+        "srv4_ram": 26.967360282826363,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.6150224,
+      "cliente": "10.0.0.20",
+      "servicio": "STREAMING",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 34.481016868281,
+        "jitter": 1.9558518236707307,
+        "loss": 0,
+        "srv1_cpu": 33.241326814086705,
+        "srv1_ram": 44.5785039949154,
+        "srv2_cpu": 57.7548064762069,
+        "srv2_ram": 44.916583428382694,
+        "srv3_cpu": 39.495684512379,
+        "srv3_ram": 51.333843975868874,
+        "srv4_cpu": 51.318438663567726,
+        "srv4_ram": 46.99824621715986,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.6359162,
+      "cliente": "10.0.0.19",
+      "servicio": "STREAMING",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 18.03895041097425,
+        "jitter": 0.516974729792719,
+        "loss": 0,
+        "srv1_cpu": 56.79425349598953,
+        "srv1_ram": 39.54785373320609,
+        "srv2_cpu": 38.82075651215199,
+        "srv2_ram": 45.229455868967484,
+        "srv3_cpu": 57.321399082885684,
+        "srv3_ram": 34.22462816055702,
+        "srv4_cpu": 56.00528285802016,
+        "srv4_ram": 50.15064936192444,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.6601412,
+      "cliente": "10.0.0.22",
+      "servicio": "STREAMING",
+      "servidor": "srv3",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 18.330030912187212,
+        "jitter": 3.742905506233993,
+        "loss": 0,
+        "srv1_cpu": 34.89331810840282,
+        "srv1_ram": 42.925357047242684,
+        "srv2_cpu": 97.47413152215329,
+        "srv2_ram": 31.30270816893711,
+        "srv3_cpu": 27.570503403376016,
+        "srv3_ram": 34.53490464663359,
+        "srv4_cpu": 57.087326409839086,
+        "srv4_ram": 46.93340040061296,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.7598658,
+      "cliente": "10.0.0.12",
+      "servicio": "WEB",
+      "servidor": "srv4",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 13.256069615625341,
+        "jitter": 3.527335781901832,
+        "loss": 0,
+        "srv1_cpu": 64.91331715846619,
+        "srv1_ram": 44.87397926462615,
+        "srv2_cpu": 99.95403295342658,
+        "srv2_ram": 39.676586274738504,
+        "srv3_cpu": 59.30524476543202,
+        "srv3_ram": 43.07591552558511,
+        "srv4_cpu": 46.6717146481376,
+        "srv4_ram": 63.16171347771517,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.9284508,
+      "cliente": "10.0.0.19",
+      "servicio": "STREAMING",
+      "servidor": "srv3",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 21.880352346116343,
+        "jitter": 1.8056770888287563,
+        "loss": 0,
+        "srv1_cpu": 69.2578259610157,
+        "srv1_ram": 45.88647904010331,
+        "srv2_cpu": 95.53571447167334,
+        "srv2_ram": 23.54105964020524,
+        "srv3_cpu": 49.67487870057813,
+        "srv3_ram": 29.33345508966216,
+        "srv4_cpu": 67.32125751248016,
+        "srv4_ram": 48.21837977753485,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996637.975858,
+      "cliente": "10.0.0.19",
+      "servicio": "STREAMING",
+      "servidor": "srv4",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 11.590023702440366,
+        "jitter": 1.8174935203561802,
+        "loss": 0,
+        "srv1_cpu": 56.07721715195314,
+        "srv1_ram": 29.50285493904756,
+        "srv2_cpu": 57.32159889394153,
+        "srv2_ram": 31.759972753871278,
+        "srv3_cpu": 90.91616898048854,
+        "srv3_ram": 30.589971378633734,
+        "srv4_cpu": 38.148116895685575,
+        "srv4_ram": 41.94003374853649,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996649.8360076,
+      "cliente": "10.0.0.13",
+      "servicio": "WEB",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 14.338344074208564,
+        "jitter": 3.4566884511899842,
+        "loss": 0,
+        "srv1_cpu": 42.00369785959112,
+        "srv1_ram": 39.19663932111,
+        "srv2_cpu": 90.90198212045468,
+        "srv2_ram": 39.26066782915837,
+        "srv3_cpu": 71.35149090106653,
+        "srv3_ram": 58.38711155820901,
+        "srv4_cpu": 61.37262756522315,
+        "srv4_ram": 35.65092181981578,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996650.5602086,
+      "cliente": "10.0.0.14",
+      "servicio": "WEB",
+      "servidor": "srv3",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 4.80394998749887,
+        "jitter": 2.156535355920759,
+        "loss": 0,
+        "srv1_cpu": 90.19562683450398,
+        "srv1_ram": 28.181637780460147,
+        "srv2_cpu": 45.241458672189175,
+        "srv2_ram": 53.3291485496942,
+        "srv3_cpu": 42.57012497827163,
+        "srv3_ram": 51.15877249580752,
+        "srv4_cpu": 64.01199242459849,
+        "srv4_ram": 39.70786667005405,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996721.1318974,
+      "cliente": "10.0.0.17",
+      "servicio": "WEB",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 21.991824411458865,
+        "jitter": 2.585664053364213,
+        "loss": 0,
+        "srv1_cpu": 67.96176772067203,
+        "srv1_ram": 29.494050438510406,
+        "srv2_cpu": 39.79757231244173,
+        "srv2_ram": 50.74485073469601,
+        "srv3_cpu": 51.35719703869334,
+        "srv3_ram": 41.87792692814066,
+        "srv4_cpu": 68.16569224818456,
+        "srv4_ram": 21.6595207284163,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996725.0375087,
+      "cliente": "10.0.0.18",
+      "servicio": "WEB",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 34.912616438563234,
+        "jitter": 2.197857759037049,
+        "loss": 0,
+        "srv1_cpu": 30.880402546951853,
+        "srv1_ram": 52.133059771428165,
+        "srv2_cpu": 76.97140004425388,
+        "srv2_ram": 55.060457107789375,
+        "srv3_cpu": 46.22952964166926,
+        "srv3_ram": 46.97197305548172,
+        "srv4_cpu": 58.05498026925153,
+        "srv4_ram": 26.308381121621654,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996728.9670599,
+      "cliente": "10.0.0.19",
+      "servicio": "WEB",
+      "servidor": "srv4",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 45.626632008655164,
+        "jitter": 1.0069464829245987,
+        "loss": 0,
+        "srv1_cpu": 80.98709465562749,
+        "srv1_ram": 39.700782542329904,
+        "srv2_cpu": 53.98249813410944,
+        "srv2_ram": 37.455692497465655,
+        "srv3_cpu": 70.97598547227666,
+        "srv3_ram": 57.89586393385387,
+        "srv4_cpu": 52.72410086112116,
+        "srv4_ram": 33.734086551668184,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996732.9087415,
+      "cliente": "10.0.0.20",
+      "servicio": "WEB",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 13.016923979439198,
+        "jitter": 2.67081453188394,
+        "loss": 0,
+        "srv1_cpu": 16.60282470803123,
+        "srv1_ram": 23.919851609577027,
+        "srv2_cpu": 50.157957329328546,
+        "srv2_ram": 43.07378551703831,
+        "srv3_cpu": 42.75644284627559,
+        "srv3_ram": 35.68687674442186,
+        "srv4_cpu": 24.17080813664257,
+        "srv4_ram": 36.09775610135172,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996736.7848916,
+      "cliente": "10.0.0.21",
+      "servicio": "WEB",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 18.106002445877785,
+        "jitter": 1.6865136679936663,
+        "loss": 0,
+        "srv1_cpu": 25.012790195993794,
+        "srv1_ram": 39.097544566713076,
+        "srv2_cpu": 39.03831383136236,
+        "srv2_ram": 30.570100545202443,
+        "srv3_cpu": 33.241961925824235,
+        "srv3_ram": 40.099134936428506,
+        "srv4_cpu": 43.66962890502998,
+        "srv4_ram": 48.70814274480434,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996740.7807696,
+      "cliente": "10.0.0.22",
+      "servicio": "WEB",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 14.581990215389817,
+        "jitter": 0.5095136314806921,
+        "loss": 0,
+        "srv1_cpu": 38.149074952502374,
+        "srv1_ram": 40.258621586839865,
+        "srv2_cpu": 22.52734212366173,
+        "srv2_ram": 53.141075917108,
+        "srv3_cpu": 46.46073912630092,
+        "srv3_ram": 38.624873027524224,
+        "srv4_cpu": 51.92297252118907,
+        "srv4_ram": 46.613377930750296,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996815.6540093,
+      "cliente": "10.0.0.11",
+      "servicio": "STREAMING",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 16.55825217503674,
+        "jitter": 1.3836210592511482,
+        "loss": 0,
+        "srv1_cpu": 69.78598122795096,
+        "srv1_ram": 27.964975992954294,
+        "srv2_cpu": 54.40364525936329,
+        "srv2_ram": 34.695500947857866,
+        "srv3_cpu": 57.74254156547397,
+        "srv3_ram": 48.98989514802568,
+        "srv4_cpu": 60.41133401180579,
+        "srv4_ram": 45.57387566272989,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996819.6008115,
+      "cliente": "10.0.0.11",
+      "servicio": "VOIP",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 14.00333166522147,
+        "jitter": 1.7535758367877876,
+        "loss": 0,
+        "srv1_cpu": 54.98762782206778,
+        "srv1_ram": 52.04123015960702,
+        "srv2_cpu": 57.05795957691112,
+        "srv2_ram": 38.100113649510355,
+        "srv3_cpu": 53.17815483284617,
+        "srv3_ram": 49.14883533979347,
+        "srv4_cpu": 57.024358182066905,
+        "srv4_ram": 48.99721951729498,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996823.522195,
+      "cliente": "10.0.0.12",
+      "servicio": "STREAMING",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 15.985672990333828,
+        "jitter": 2.9081737259224067,
+        "loss": 0,
+        "srv1_cpu": 44.641165310294014,
+        "srv1_ram": 40.946623195362335,
+        "srv2_cpu": 58.64209005235876,
+        "srv2_ram": 26.705665014928726,
+        "srv3_cpu": 46.192332633118276,
+        "srv3_ram": 42.73812657557405,
+        "srv4_cpu": 52.49400182644203,
+        "srv4_ram": 48.30718737872154,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996827.4304197,
+      "cliente": "10.0.0.12",
+      "servicio": "VOIP",
+      "servidor": "srv4",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 0.0,
+        "jitter": 0.3372930089610606,
+        "loss": 0,
+        "srv1_cpu": 64.91693938862795,
+        "srv1_ram": 47.39978479710794,
+        "srv2_cpu": 79.19037858518564,
+        "srv2_ram": 38.840870163007416,
+        "srv3_cpu": 67.9616745211124,
+        "srv3_ram": 62.26249219280814,
+        "srv4_cpu": 15.718037932442613,
+        "srv4_ram": 23.424261927889216,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996831.4146235,
+      "cliente": "10.0.0.13",
+      "servicio": "STREAMING",
+      "servidor": "srv2",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 15.018356464136408,
+        "jitter": 0.5795697955444419,
+        "loss": 0,
+        "srv1_cpu": 72.72829426763639,
+        "srv1_ram": 37.3424542559849,
+        "srv2_cpu": 39.496223893507604,
+        "srv2_ram": 52.358402043523704,
+        "srv3_cpu": 59.786936597471154,
+        "srv3_ram": 34.1720744510538,
+        "srv4_cpu": 60.25005711662041,
+        "srv4_ram": 30.785262444515137,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996835.3138738,
+      "cliente": "10.0.0.13",
+      "servicio": "VOIP",
+      "servidor": "srv3",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 13.020552333368098,
+        "jitter": 3.178381459954205,
+        "loss": 0,
+        "srv1_cpu": 37.32687528356348,
+        "srv1_ram": 35.00077794812272,
+        "srv2_cpu": 43.076850632273185,
+        "srv2_ram": 34.37845925848861,
+        "srv3_cpu": 11.818459388102859,
+        "srv3_ram": 24.408466418458733,
+        "srv4_cpu": 52.264699664609594,
+        "srv4_ram": 53.759532468774154,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996839.2568502,
+      "cliente": "10.0.0.14",
+      "servicio": "STREAMING",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 26.85009840940758,
+        "jitter": 1.4808137581614198,
+        "loss": 0,
+        "srv1_cpu": 48.08502375230842,
+        "srv1_ram": 23.221701807747827,
+        "srv2_cpu": 46.15067413335896,
+        "srv2_ram": 37.597245120007514,
+        "srv3_cpu": 41.12912321036962,
+        "srv3_ram": 45.94942650304101,
+        "srv4_cpu": 55.875664740289025,
+        "srv4_ram": 45.5121964116091,
+        "etapa_trafico": 0
+      }
+    },
+    {
+      "timestamp": 1777996843.14367,
+      "cliente": "10.0.0.14",
+      "servicio": "VOIP",
+      "servidor": "srv1",
+      "modo": "IA",
+      "mets": {
+        "bw_solicitado": 42.0284569332418,
+        "jitter": 2.534813893566527,
+        "loss": 0,
+        "srv1_cpu": 20.43610131390638,
+        "srv1_ram": 26.04141147700863,
+        "srv2_cpu": 49.09663311577816,
+        "srv2_ram": 31.092581313436213,
+        "srv3_cpu": 46.21194511060101,
+        "srv3_ram": 54.14086227685742,
+        "srv4_cpu": 51.198903758142045,
+        "srv4_ram": 27.895495615890468,
+        "etapa_trafico": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,3106 @@
+{
+  "titulo": "Reporte de Asignación Comparativa - Servidor por Petición",
+  "generado": "2026-05-05 10:10:16",
+  "pruebas": [
+    {
+      "prueba": 1,
+      "nombre": "Tráfico Base",
+      "total_comparadas": 27,
+      "coincidencias": 4,
+      "porcentaje_coincidencia": 14.8,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 2,
+      "nombre": "Operación Diaria",
+      "total_comparadas": 25,
+      "coincidencias": 3,
+      "porcentaje_coincidencia": 12.0,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 3,
+      "nombre": "Estrés Crítico",
+      "total_comparadas": 32,
+      "coincidencias": 8,
+      "porcentaje_coincidencia": 25.0,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 28,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 29,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 30,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 31,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 32,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 4,
+      "nombre": "Streaming",
+      "total_comparadas": 34,
+      "coincidencias": 4,
+      "porcentaje_coincidencia": 11.8,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 28,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 29,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 30,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 31,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 32,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 33,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 34,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 5,
+      "nombre": "Ráfagas",
+      "total_comparadas": 23,
+      "coincidencias": 6,
+      "porcentaje_coincidencia": 26.1,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 6,
+      "nombre": "Jitter",
+      "total_comparadas": 21,
+      "coincidencias": 4,
+      "porcentaje_coincidencia": 19.0,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 7,
+      "nombre": "Congestión",
+      "total_comparadas": 29,
+      "coincidencias": 6,
+      "porcentaje_coincidencia": 20.7,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 28,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 29,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 8,
+      "nombre": "Tráfico Mixto",
+      "total_comparadas": 31,
+      "coincidencias": 6,
+      "porcentaje_coincidencia": 19.4,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 28,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 29,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 30,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 31,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 9,
+      "nombre": "Caída Servidor",
+      "total_comparadas": 29,
+      "coincidencias": 5,
+      "porcentaje_coincidencia": 17.2,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.17",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 28,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "STREAMING",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 29,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "VOIP",
+          "servidor_IA": "srv2",
+          "coincide": false
+        }
+      ]
+    },
+    {
+      "prueba": 10,
+      "nombre": "Resiliencia",
+      "total_comparadas": 50,
+      "coincidencias": 6,
+      "porcentaje_coincidencia": 12.0,
+      "asignaciones": [
+        {
+          "peticion": 1,
+          "cliente_RR": "10.0.0.15",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 2,
+          "cliente_RR": "10.0.0.22",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 3,
+          "cliente_RR": "10.0.0.21",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 4,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 5,
+          "cliente_RR": "10.0.0.19",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 6,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 7,
+          "cliente_RR": "10.0.0.20",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 8,
+          "cliente_RR": "10.0.0.17",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": true
+        },
+        {
+          "peticion": 9,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": true
+        },
+        {
+          "peticion": 10,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": true
+        },
+        {
+          "peticion": 11,
+          "cliente_RR": "10.0.0.16",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 12,
+          "cliente_RR": "10.0.0.18",
+          "servicio_RR": "WEB",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 13,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 14,
+          "cliente_RR": "10.0.0.11",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.21",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 15,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": true
+        },
+        {
+          "peticion": 16,
+          "cliente_RR": "10.0.0.12",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 17,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv1",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 18,
+          "cliente_RR": "10.0.0.13",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv2",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 19,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "STREAMING",
+          "servidor_RR": "srv3",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 20,
+          "cliente_RR": "10.0.0.14",
+          "servicio_RR": "VOIP",
+          "servidor_RR": "srv4",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 21,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 22,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 23,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 24,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 25,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 26,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 27,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 28,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 29,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 30,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 31,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 32,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 33,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 34,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.18",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 35,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 36,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.22",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 37,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.19",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 38,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 39,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.15",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 40,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 41,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.12",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 42,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 43,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 44,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv1",
+          "coincide": false
+        },
+        {
+          "peticion": 45,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.11",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 46,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.16",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 47,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.14",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        },
+        {
+          "peticion": 48,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.20",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv3",
+          "coincide": false
+        },
+        {
+          "peticion": 49,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv2",
+          "coincide": false
+        },
+        {
+          "peticion": 50,
+          "cliente_RR": "",
+          "servicio_RR": "",
+          "servidor_RR": "",
+          "cliente_IA": "10.0.0.13",
+          "servicio_IA": "WEB",
+          "servidor_IA": "srv4",
+          "coincide": false
+        }
+      ]
+    }
+  ]
+}
